@@ -41,7 +41,7 @@ export default function HomePage() {
             <span className="text-indigo-600"> All in One Place</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Access thousands of high-quality free courses from Coursera, edX, Udemy, YouTube, and more. 
+            Access thousands of high-quality free courses from Coursera, edX, Udemy, YouTube, and more.
             Start your learning journey today!
           </p>
 
@@ -74,13 +74,13 @@ export default function HomePage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <Users className="h-12 w-12 text-indigo-600 mx-auto mb-3" />
-              <div className="text-3xl font-bold text-gray-900">50+</div>
+              <div className="text-3xl font-bold text-gray-900">10+</div>
               <div className="text-gray-600">Platforms</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <Award className="h-12 w-12 text-indigo-600 mx-auto mb-3" />
-              <div className="text-3xl font-bold text-gray-900">₹1/month</div>
-              <div className="text-gray-600">Premium Access</div>
+              <div className="text-3xl font-bold text-gray-900">15+</div>
+              <div className="text-gray-600">Categories</div>
             </div>
           </div>
         </div>
