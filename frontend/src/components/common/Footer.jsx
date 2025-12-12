@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 export default function Footer() {
   return (
@@ -10,10 +12,11 @@ export default function Footer() {
             Making Quality Education Accessible for Everyone
           </p>
           <div className="flex justify-center space-x-6 mb-4">
-            <a href="#" className="hover:text-indigo-400">About</a>
-            <a href="#" className="hover:text-indigo-400">Contact</a>
-            <a href="#" className="hover:text-indigo-400">Privacy</a>
-            <a href="#" className="hover:text-indigo-400">Terms</a>
+            <Link to="/about" className="hover:text-indigo-400">About</Link>
+            <Link to="/contact" className="hover:text-indigo-400">Contact</Link>
+            <a href="https://github.com/Abhi-Rai-01/EduVision" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400">
+              GitHub
+            </a>
           </div>
           <p className="text-sm text-gray-500">
             © 2025 EduVision - Developed by Abhi Rai | IIT Patna

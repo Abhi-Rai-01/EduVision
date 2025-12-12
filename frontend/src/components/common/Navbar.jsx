@@ -27,6 +27,9 @@ export default function Navbar() {
             <Link to="/about" className="text-gray-700 hover:text-indigo-600 font-medium">
               About
             </Link>
+            <Link to="/contact" className="text-gray-700 hover:text-indigo-600 font-medium">
+              Contact
+            </Link>
           </div>
 
           {/* User Menu */}
