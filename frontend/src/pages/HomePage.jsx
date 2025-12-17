@@ -69,7 +69,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-16">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <BookOpen className="h-12 w-12 text-indigo-600 mx-auto mb-3" />
-              <div className="text-3xl font-bold text-gray-900">10,000+</div>
+              <div className="text-3xl font-bold text-gray-900">100+</div>
               <div className="text-gray-600">Free Courses</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
